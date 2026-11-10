@@ -1,8 +1,5 @@
 @charset "utf-8";
-/* style.css - HTML text basics lab */
 
-/* Exercise 1 headings and paragraphs
-   CHANGE 1: h1 and h2 color changed from purple to green */
 h1,
 h2 {
   color: green;
@@ -13,10 +10,6 @@ p {
   margin: 0.5em 0;
 }
 
-/* Exercise 2 lists
-   CHANGE 2: ul border 2px -> 4px and orange -> teal
-   CHANGE 3: ol border 2px -> 4px
-   CHANGE 4: more padding and rounder corners on both lists */
 ul {
   border: 4px solid teal;
 }
@@ -31,7 +24,6 @@ ul {
   border-radius: 12px;
 }
 
-/* Exercise 3 description list (dt styling) */
 dl {
   color: gray;
   margin: 0.5em 0;
@@ -42,9 +34,6 @@ dt {
   color: purple;
 }
 
-/* Exercise 4 emphasis and importance
-   NOTE: this h1 rule comes AFTER the h1, h2 rule above, so it wins
-   and all h1 headings stay purple while h2 headings are green. */
 h1,
 strong {
   color: purple;
